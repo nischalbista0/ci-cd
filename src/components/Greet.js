@@ -1,7 +1,7 @@
-export default function Greet() {
+export default function Greet({ name }) {
     return (
         <div>
-            Hello
+            <p>Hello {name} </p>
         </div>
     )
 }

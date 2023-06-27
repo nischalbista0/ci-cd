@@ -9,8 +9,9 @@ test('renders hello', () => {
 })
 
 test('renders hello with name prop', () => {
-    render(<Greet name={"Achyut"} />)
-    const textElement = screen.getByText("Hello Achyut")
+    const container = render(<Greet name={"Achyut"} />)
+    // console.log(logRoles(container))
+    const textElement = screen.getByText('Hello Achyut')
     // screen.debug()
     expect(textElement).toBeInTheDocument()
 })

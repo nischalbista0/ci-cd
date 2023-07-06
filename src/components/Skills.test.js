@@ -23,7 +23,7 @@ describe('Skills', () => {
     test('renders login button', () => {
         render(<Skills skills={skills} />)
         const loginButton = screen.getByRole("button", {
-            name: "logins"
+            name: "login"
         })
         expect(loginButton).toBeInTheDocument()
     })

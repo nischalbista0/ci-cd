@@ -25,5 +25,4 @@ describe('Users', () => {
         const error = await screen.findByText(/error fetching data/i)
         expect(error).toBeInTheDocument()
     })
-
 })

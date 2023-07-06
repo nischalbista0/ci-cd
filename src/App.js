@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       {/* <Application /> */}
-      {/* <Skills skills={skills} /> */}
+      <Skills skills={skills} />
       {/* <Counter /> */}
       <Users />
     </div>
